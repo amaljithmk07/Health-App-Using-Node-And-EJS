@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/viewone.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="navbar">
+            <div class="logo">LifeSnap</div>
+            <div class="nav">
+                <div class="nav-item">
+                    <ul>
+                        <li>
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/add"> Add Patient</a>
+
+                        </li>
+                        <li>
+                            <a href="/api/health/view">View Patient </a>
+                        </li>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="image">
+        </div>
+        <div class="table">
+            <h1> PATIENT DETAILS</h1>
+            <table>
+
+                <tr>
+                    
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Gender</th>
+                    <th>Date of Birth</th>
+                    <th>Phone Number</th>
+                    <th>Address</th>
+                    <th></th>
+
+                </tr>
+
+
+                    <tr>
+                       
+                        <td>
+                            <%= data.first_name %>
+                        </td>
+                        <td>
+                            <%= data.last_name %>
+                        </td>
+                        <td>
+                            <%= data.gender %>
+                        </td>
+                        <td>
+                            <%= data.date_of_birth %>
+                        </td>
+                        <td>
+                            <%= data.phone_number %>
+                        </td>
+                        <td>
+                            <%= data.address %>
+                        </td>
+                       
+                        <td><a href="/api/health/list/<%= data._id %>"><input type="button" value="Update"></a><input type="button" value="Delete"></td>
+                    </tr>
+
+
+            </table>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Update.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="navbar">
+            <div class="logo">LifeSnap</div>
+            <div class="nav ">
+                <div class="nav-item">
+                    <ul>
+                        <li>
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/add"> Add Patient</a>
+
+                        </li>
+                        <li>
+                            <a href="/api/health/view">View Patient </a>
+                        </li>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- <%- include('./pages/header') %> -->
+
+
+        <div class="image">
+
+            <!-- <img src="/public/images/add.webp" alt=""> -->
+
+        </div>
+        <div class="content">
+            <div class="table">
+                <H1>ADD &nbsp;PATIENT &nbsp;DETAILS</H1>
+                <table>
+                    <form action="/api/health/update/<%= data._id %>" method="post">
+                        <tr>
+                            <td>
+                                First Name<br>
+                                <input type="text" class="input" name="first_name" value="<%= data.first_name %>">
+                            </td>
+                            <td>
+                                Last Name<br>
+                                <input type="text" class="input" name="last_name" value="<%= data.last_name %>">
+                            </td>
+                            <td> Gender<br>
+                                <input type="text" class="input" name="gender" value="<%= data.gender %>">
+                            </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>
+                                Date of Birth<br>
+                                <input type="text" class="input" name="date_of_birth" value="<%= data.date_of_birth %>">
+                            </td>
+                            <td>
+                                Phone Number<br>
+                                <input type="text" class="input" name="phone_number" value="<%= data.phone_number %>">
+                            </td>
+                            <td>
+                                Address<br>
+                                <input type="text" class="input" name="address" value="<%= data.address %>">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="3"><input type="submit" value="Submit" id="btn"></td>
+                        </tr>
+                    </form>
+
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Follow us</p>
+            <i class="fa fa-instagram"></i> <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i> <i class="fa fa-facebook"></i>
+            <i class="fa fa-tiktok"></i><i class="fa fa-linkedin"></i>
+        </div>
+
+    </div>
+</body>
+
+</html>

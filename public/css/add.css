@@ -1,0 +1,177 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(148 148 148);
+    position: fixed;
+   
+
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    padding-left: 109px;
+    width: 20%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgb(33, 43, 45);
+    font-weight: 600;
+    /* float: left; */
+    padding-top: 9px;
+    padding-bottom: 8px;
+    font-size: 45px;
+    /* background-color: rgb(46, 181, 9); */
+}
+
+.nav {
+    width: 70%;
+    margin-top: -70px;
+    height: 70px;
+    /* background-color: rgb(213, 213, 19); */
+    float: right;
+    /* align-items: center; */
+
+
+}
+
+.nav-item {
+    align-items: center;
+    padding-left: 200px;
+}
+
+.nav li {
+    /* height: 40px; */
+    padding-left: 20px;
+    border-radius: 3px;
+
+    padding-right: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 70px;
+    /* background-color: rgb(130, 130, 130); */
+    list-style: none;
+    float: left;
+}
+
+.nav li:hover {
+    transition: .3s;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+
+.nav li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgb(33, 43, 45);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* /////////////////////// */
+
+.image {
+    height: 707px;
+    width: 100%;
+    background-image: url(/images/view.jpg);
+
+}
+
+.content {
+    margin-top: -700px;
+    width: 100%;
+    min-height: 464px;
+    /* background-color: red; */
+}
+
+.table {
+    margin-top: 140px;
+    background-color: rgba(204, 204, 204, 0.529);
+    width: 70%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table h1 {
+    color: rgb(48 48 48);
+    text-align: center;
+    font-family: sans-serif;
+    /* font-weight: 900; */
+    letter-spacing: 1.5px;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+table td {
+    color: rgb(48 48 48);
+    line-height: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 80px;
+}
+
+.table table {
+    width: 100%;
+    /* height: 80px; */
+}
+
+.input {
+    border-radius: 2px;
+    border: 0px solid rgb(162, 213, 230);
+    height: 30px;
+    font-size: 17px;
+    font-family: cursive;
+
+    width: 250px;
+    padding-left: 6px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.table table .input:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgb(0, 128, 255);
+}
+
+#btn {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(58, 58, 58);
+    font-size: 20px;
+    transition: border-radius .5s, border .2s;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    transition-timing-function: ease;
+    border-radius: 22px;
+    /* border: 1px solid rgb(58, 58, 58); */
+    /* background-color: rgb(185, 185, 185); */
+
+}
+
+.footer {
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    height: 65px;
+    padding-top: 5px;
+    letter-spacing: 3px;
+    margin-top: 26px;
+    line-height: 10px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}

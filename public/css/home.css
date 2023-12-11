@@ -1,0 +1,134 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(132 138 145);
+        /* position: fixed; */
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    padding-left: 109px;
+    width: 20%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgb(33, 43, 45);
+    font-weight: 600;
+    /* float: left; */
+    padding-top: 9px;
+    padding-bottom: 8px;
+    font-size: 45px;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.nav {
+    width: 70%;
+    margin-top: -70px;
+    height: 70px;
+    /* background-color: rgb(255, 255, 255); */
+    float: right;
+    /* align-items: center; */
+
+
+}
+
+.nav-item {
+    align-items: center;
+    padding-left: 200px;
+}
+
+.nav li {
+    /* height: 40px; */
+    padding-left: 20px;
+    border-radius: 3px;
+
+    padding-right: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 70px;
+    /* background-color: rgb(130, 130, 130); */
+    list-style: none;
+    float: left;
+}
+
+.nav li:hover {
+    transition: .3s;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+
+.nav li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgb(33, 43, 45);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.image img {
+    /* background-color: blue; */
+    width: 70%;
+    margin-top: 18px;
+    margin-left: 240px;
+}
+
+.content {
+    margin-left: auto;
+    text-align: justify;
+    font-family: sans-serif;
+
+    line-height: 30px;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: .1px;
+}
+
+.content .img1 {
+    height: 600px;
+}
+
+.content .img2 {
+    height: 500px;
+    margin-left: 210px;
+}
+
+ol li ul li {
+    list-style-type: disc;
+}
+
+
+.footer {
+    width: 100%;
+    height: 90px;
+
+    background-color: rgb(7, 26, 45);
+}
+
+.footer p {
+    color: white;
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 16%;
+    /* background-color: red; */
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-family: sans-serif;
+
+    font-size: 16px;
+}
